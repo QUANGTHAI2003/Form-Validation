@@ -81,7 +81,7 @@ form.addEventListener('submit', function (e) {
     let isPasswordLengthError = checkLength(password, 8, 20);
     let isMatchError = checkMatchPasswordError(password, confirmPassword);
 })
-// Show and hide password
+
 eyeOpen.addEventListener('click', () => {
     eyeOpen.classList.add('hidden')
     eyeClose.classList.remove('hidden')
